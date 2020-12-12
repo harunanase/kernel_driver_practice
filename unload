@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+sudo rm /dev/main
+sudo rmmod main

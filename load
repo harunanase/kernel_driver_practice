@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo insmod main.ko
+sudo mknod /dev/main c 240 0 
+sudo chgrp haruna /dev/main
+sudo chmod g+w /dev/main
